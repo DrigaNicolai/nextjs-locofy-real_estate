@@ -19,6 +19,7 @@ module.exports = {
           "200": "#e7e9eb",
         },
         gainsboro: "rgba(226, 226, 226, 0.1)",
+        mediumseagreen: "#4aa15d",
         "primary-700": "#2c3a61",
         "primary-400": "#6e80b4",
         "gray-500": "#6d737a",

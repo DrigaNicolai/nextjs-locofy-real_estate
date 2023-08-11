@@ -1,13 +1,37 @@
 import "antd/dist/antd.min.css";
 import { Menu, Dropdown, Button } from "antd";
-import { DownOutlined } from "@ant-design/icons";
+import {
+  DownOutlined,
+  ArrowLeftOutlined,
+  ArrowRightOutlined,
+  CalendarOutlined,
+  CheckOutlined,
+  ClockCircleOutlined,
+  CloseOutlined,
+  DeleteOutlined,
+  EditOutlined,
+  ExclamationCircleOutlined,
+  HeartOutlined,
+  LeftOutlined,
+  LockOutlined,
+  MailOutlined,
+  PaperClipOutlined,
+  PhoneOutlined,
+  QuestionCircleOutlined,
+  ReloadOutlined,
+  RightOutlined,
+  SearchOutlined,
+  SendOutlined,
+  ShareAltOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
 import { useRouter } from "next/router";
 
 const Hero = () => {
   const router = useRouter();
 
   const onSearchCTAClick = () => {
-    router.push("/properties");
+    router.push("/properties-grid-view");
   };
 
   return (
@@ -131,7 +155,7 @@ const Hero = () => {
                 </Dropdown>
               </div>
               <button
-                className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded w-[102px] flex flex-row box-border items-center justify-center hover:bg-steelblue"
+                className="cursor-pointer [border:none] py-3 px-6 bg-mediumseagreen rounded w-[102px] flex flex-row box-border items-center justify-center hover:bg-steelblue"
                 onClick={onSearchCTAClick}
               >
                 <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
